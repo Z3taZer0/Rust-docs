@@ -21,7 +21,10 @@ Rust docs/
     ├── 06-Loops.md
     ├── 07-Types.md
     ├── 08-Conditions.md
-    └── 09-Arrays.md
+    ├── 09-Arrays.md
+    ├── 10-Operators.md
+    ├── 11-Tuples.md
+    └── 12-Match.md
 ```
 
 Lorsqu'un nouveau grand thème sera étudié, il pourra avoir son propre dossier. Par exemple, un futur dossier `Ownership/` pourra contenir des fichiers consacrés à la propriété, aux emprunts et aux références.

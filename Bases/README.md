@@ -13,5 +13,12 @@ Ces leçons regroupent la syntaxe nécessaire pour créer un petit programme Rus
 7. [Types](07-Types.md) : reconnaître les types de valeurs courants.
 8. [Conditions](08-Conditions.md) : choisir les instructions à exécuter.
 9. [Arrays](09-Arrays.md) : regrouper plusieurs valeurs dans un tableau.
+10. [Operators](10-Operators.md) : calculer et combiner des valeurs.
+11. [Tuples](11-Tuples.md) : regrouper des valeurs de types différents.
+12. [Match](12-Match.md) : traiter plusieurs possibilités.
 
 Chaque fichier présente une seule notion avec de petits exemples. Les nouvelles notions de base peuvent être ajoutées ici sous la forme d'un nouveau fichier au nom précis.
+
+## Suite
+
+La syntaxe de base est maintenant couverte. La prochaine étape est l'ownership : le système utilisé par Rust pour gérer la mémoire. Ce sujet formera un nouveau groupe de leçons.

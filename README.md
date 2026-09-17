@@ -5,6 +5,7 @@ Ce dossier contient les notions de Rust déjà étudiées. Chaque notion possèd
 ## Leçons
 
 - [Bases](Bases/README.md) : syntaxe essentielle pour écrire et exécuter de petits programmes.
+- [Ownership](Ownership/README.md) : propriété, emprunts, références et slices.
 - [Découvertes](Discoveries/README.md) : explications tirées des erreurs, avertissements et questions rencontrés en pratiquant.
 
 ## Organisation
@@ -26,10 +27,18 @@ Rust docs/
 │   ├── 10-Operators.md
 │   ├── 11-Tuples.md
 │   └── 12-Match.md
+├── Ownership/
+│   ├── README.md
+│   ├── 01-Ownership.md
+│   ├── 02-Move-Copy-Clone.md
+│   ├── 03-Borrowing.md
+│   ├── 04-Mutable-References.md
+│   ├── 05-String-and-Str.md
+│   └── 06-Slices.md
 └── Discoveries/
     ├── README.md
     ├── 01-Clippy.md
     └── 02-Loop-Values-and-Indexes.md
 ```
 
-Lorsqu'un nouveau grand thème sera étudié, il pourra avoir son propre dossier. Par exemple, un futur dossier `Ownership/` pourra contenir des fichiers consacrés à la propriété, aux emprunts et aux références.
+Chaque nouveau grand thème peut avoir son propre dossier afin de conserver une progression claire.

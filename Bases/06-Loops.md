@@ -63,6 +63,30 @@ for nombre in 0..5 {
 
 L'intervalle `0..5` contient `0`, `1`, `2`, `3` et `4`. La dernière valeur, `5`, est exclue.
 
+## La syntaxe `..` et `..=`
+
+Les deux points `..` créent un **intervalle** (*range*). La valeur écrite à gauche est incluse et celle écrite à droite est exclue :
+
+```rust
+for nombre in 2..5 {
+    println!("{nombre}");
+}
+```
+
+Cette boucle affiche `2`, `3` et `4`.
+
+Pour inclure aussi la dernière valeur, il faut ajouter `=` :
+
+```rust
+for nombre in 2..=5 {
+    println!("{nombre}");
+}
+```
+
+Cette boucle affiche `2`, `3`, `4` et `5`.
+
+La même syntaxe sert plus tard à sélectionner une partie d'un tableau ou d'un texte : `tableau[1..3]` utilise les positions `1` et `2`, mais pas la position `3`.
+
 Une boucle `for` peut aussi parcourir un tableau :
 
 ```rust
@@ -94,5 +118,7 @@ Ce programme n'affiche pas `2`.
 - `loop` répète jusqu'à ce qu'une instruction l'arrête.
 - `while` répète tant qu'une condition est vraie.
 - `for` parcourt plusieurs valeurs.
+- `début..fin` exclut la valeur de fin.
+- `début..=fin` inclut la valeur de fin.
 - `break` quitte une boucle.
 - `continue` passe à l'itération suivante.

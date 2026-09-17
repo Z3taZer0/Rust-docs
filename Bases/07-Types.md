@@ -34,3 +34,5 @@ let score: u32 = 100;
 - `i32` accepte les nombres négatifs, contrairement à `u32`.
 - Rust trouve souvent le type automatiquement.
 - Une annotation comme `: u32` permet de choisir le type explicitement.
+
+Pour pratiquer cette notion, réalise [l'exercice 07 — Choisir les types d'un état de partie](../Exercises/Bases.md#bases-types). La correction se trouve avec l'énoncé.

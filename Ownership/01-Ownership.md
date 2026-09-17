@@ -1,6 +1,8 @@
-]"{|'
-],LP-[;.GBHYUIJMN7TFR5V64SWXS/]
-\Un **bloc** est un groupe d'instructions placé entre des accolades `{}`. Les fonctions, les conditions et les boucles contiennent toutes des blocs.
+# Ownership
+
+## Qu'est-ce qu'un bloc ?
+
+Un **bloc** est un groupe d'instructions placé entre des accolades `{}`. Les fonctions, les conditions et les boucles contiennent toutes des blocs.
 
 ```rust
 fn main() { // Début du bloc de la fonction.
@@ -43,10 +45,6 @@ fn main() {
 
 Ces règles permettent à Rust de libérer la mémoire automatiquement, sans appeler manuellement une fonction de nettoyage.
 
-## Petit exercice
-
-Crée une variable `nom` contenant un `String` dans un bloc intérieur. Affiche-la dans ce bloc, puis observe pourquoi elle ne peut plus être utilisée après la fermeture du bloc.
-
 ## À retenir
 
 - Un bloc regroupe des instructions entre `{` et `}`.
@@ -54,3 +52,5 @@ Crée une variable `nom` contenant un `String` dans un bloc intérieur. Affiche-
 - Une variable est propriétaire de sa valeur.
 - La portée d'une variable se termine à la fermeture de son bloc.
 - Rust libère alors automatiquement la mémoire possédée.
+
+Pour pratiquer cette notion, réalise [l'exercice 01 — Construire un rapport avec des portées](../Exercises/Ownership.md#ownership-scope). La correction se trouve avec l'énoncé.

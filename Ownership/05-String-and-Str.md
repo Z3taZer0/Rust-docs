@@ -43,13 +43,11 @@ fn main() {
 
 La même fonction accepte alors une référence vers un `String` et un texte écrit directement dans le code.
 
-## Petit exercice
-
-Écris une fonction `commence_par_r` qui reçoit `&str` et retourne le résultat de `texte.starts_with('R')`. Teste-la avec un `String` et avec `"Rust"`.
-
 ## À retenir
 
 - `String` possède un texte qui peut grandir ou changer.
 - `&str` emprunte une vue sur du texte.
 - Un texte littéral comme `"Rust"` est un `&str`.
 - Pour une fonction qui lit seulement du texte, `&str` est généralement le type le plus pratique.
+
+Pour pratiquer cette notion, réalise [l'exercice 05 — Produire des descriptions à partir de plusieurs textes](../Exercises/Ownership.md#ownership-string-str). La correction se trouve avec l'énoncé.

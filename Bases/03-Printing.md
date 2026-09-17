@@ -31,7 +31,7 @@ Le résultat est : 42
 Les accolades peuvent contenir un nom de variable, mais pas un appel de fonction complet :
 
 ```rust
-let resultat = addition(2, 3);
+let resultat = String::from("Bonjour");
 println!("{resultat}");
 ```
 
@@ -47,3 +47,5 @@ Pour le moment, il suffit de retenir qu'une macro ressemble à une fonction, mai
 - `{}` indique où placer une valeur.
 - `{nom}` affiche directement une variable appelée `nom`.
 - Le `!` indique que `println!` est une macro.
+
+Pour pratiquer cette notion, réalise [l'exercice 03 — Afficher une fiche de personnage](../Exercises/Bases.md#bases-printing). La correction se trouve avec l'énoncé.

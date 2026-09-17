@@ -47,12 +47,10 @@ println!("{premier}, {second}");
 
 Une copie complète peut demander plus de travail qu'un simple déplacement. `clone()` rend ce coût visible dans le code.
 
-## Petit exercice
-
-Crée un `String`, déplace-le dans une seconde variable, puis corrige l'exemple avec `clone()` afin de pouvoir afficher les deux variables.
-
 ## À retenir
 
 - Une affectation déplace généralement un `String`.
 - Les valeurs simples sont souvent copiées automatiquement.
 - `clone()` crée explicitement une copie complète.
+
+Pour pratiquer cette notion, réalise [l'exercice 02 — Transférer une fiche de joueur](../Exercises/Ownership.md#ownership-move-copy-clone). La correction se trouve avec l'énoncé.

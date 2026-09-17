@@ -31,13 +31,11 @@ fn afficher(texte: &String) {
 
 La fonction peut lire le texte, mais elle ne peut pas le modifier.
 
-## Petit exercice
-
-Écris une fonction `est_long` qui reçoit `&String` et retourne `true` lorsque la longueur du texte dépasse 10 octets.
-
 ## À retenir
 
 - `&valeur` crée une référence.
 - Une référence permet d'emprunter une valeur sans la déplacer.
 - Une référence ordinaire permet de lire, mais pas de modifier.
 - Le propriétaire peut réutiliser sa valeur après l'emprunt.
+
+Pour pratiquer cette notion, réalise [l'exercice 03 — Inspecter un profil sans le déplacer](../Exercises/Ownership.md#ownership-borrowing). La correction se trouve avec l'énoncé.

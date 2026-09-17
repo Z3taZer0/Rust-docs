@@ -37,13 +37,11 @@ Le dernier usage de `premiere` a lieu avant la création de `seconde`. Leurs emp
 
 Cette règle évite que deux parties du programme modifient la même valeur au même moment.
 
-## Petit exercice
-
-Écris une fonction `ajouter_salutation` qui reçoit `&mut String` et ajoute `" !"` avec la méthode `push_str()`.
-
 ## À retenir
 
 - `&mut` crée une référence mutable.
 - La valeur empruntée doit être déclarée avec `mut`.
 - Une seule référence mutable vers une valeur peut être active à la fois.
 - Les références mutables rendent les modifications explicites.
+
+Pour pratiquer cette notion, réalise [l'exercice 04 — Modifier un état de combat par emprunt](../Exercises/Ownership.md#ownership-mutable-references). La correction se trouve avec l'énoncé.

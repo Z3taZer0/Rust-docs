@@ -44,3 +44,5 @@ if age >= 18 && billet {
 - Une division entre entiers retourne un entier.
 - `+=` et `-=` modifient une variable mutable.
 - `&&`, `||` et `!` permettent de combiner des booléens.
+
+Pour pratiquer cette notion, réalise [l'exercice 10 — Simuler une réserve d'énergie](../Exercises/Bases.md#bases-operators). La correction se trouve avec l'énoncé.

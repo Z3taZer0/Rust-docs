@@ -19,6 +19,8 @@ Ces leçons regroupent la syntaxe nécessaire pour créer un petit programme Rus
 
 Chaque fichier présente une seule notion avec de petits exemples. Les nouvelles notions de base peuvent être ajoutées ici sous la forme d'un nouveau fichier au nom précis.
 
+Les exercices correspondants et leurs corrections sont regroupés dans [Exercices — Bases](../Exercises/Bases.md).
+
 ## Suite
 
 La syntaxe de base est maintenant couverte. La prochaine étape est l'ownership : le système utilisé par Rust pour gérer la mémoire. Ce sujet formera un nouveau groupe de leçons.

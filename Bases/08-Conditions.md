@@ -47,3 +47,5 @@ if score >= 90 {
 - `else if` teste une autre condition.
 - `else` s'exécute lorsqu'aucune condition précédente n'est vraie.
 - `=` donne une valeur, tandis que `==` compare deux valeurs.
+
+Pour pratiquer cette notion, réalise [l'exercice 08 — Contrôler l'accès à une zone](../Exercises/Bases.md#bases-conditions). La correction se trouve avec l'énoncé.

@@ -12,3 +12,5 @@ L'ownership est le système utilisé par Rust pour gérer la mémoire sans ramas
 6. [Slices](06-Slices.md) : emprunter une partie d'une chaîne ou d'un tableau.
 
 Il est préférable de suivre ces leçons dans l'ordre, car chaque fichier réutilise les notions du précédent.
+
+Les exercices correspondants et leurs corrections sont regroupés dans [Exercices — Ownership](../Exercises/Ownership.md).

@@ -26,3 +26,5 @@ let points: u32 = 50;
 - Une constante ne peut pas être modifiée.
 - Son type doit être indiqué.
 - Son nom s'écrit généralement en majuscules.
+
+Pour pratiquer cette notion, réalise [l'exercice 04 — Calculer une récompense limitée](../Exercises/Bases.md#bases-constants). La correction se trouve avec l'énoncé.

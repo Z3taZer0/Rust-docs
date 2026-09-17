@@ -30,12 +30,15 @@ let nombres: [i32; 3] = [10, 20, 30];
 La méthode `len()` donne le nombre d'éléments :
 
 ```rust
+let nombres = [10, 20, 30];
 println!("{}", nombres.len()); // Affiche 3.
 ```
 
 ## Parcourir un tableau
 
 ```rust
+let nombres = [10, 20, 30];
+
 for nombre in nombres {
     println!("{nombre}");
 }
@@ -48,3 +51,5 @@ for nombre in nombres {
 - Le premier indice est `0`.
 - `len()` donne le nombre d'éléments.
 - `for` permet de parcourir toutes les valeurs.
+
+Pour pratiquer cette notion, réalise [l'exercice 09 — Analyser une série de dégâts](../Exercises/Bases.md#bases-arrays). La correction se trouve avec l'énoncé.

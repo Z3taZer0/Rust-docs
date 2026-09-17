@@ -51,3 +51,5 @@ println!("{message}");
 - `_` représente tous les autres cas.
 - Tous les cas possibles doivent être couverts.
 - `match` peut retourner une valeur.
+
+Pour pratiquer cette notion, réalise [l'exercice 12 — Interpréter une commande de jeu](../Exercises/Bases.md#bases-match). La correction se trouve avec l'énoncé.

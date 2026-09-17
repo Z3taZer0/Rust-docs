@@ -11,6 +11,10 @@ fn dire_bonjour() {
 Pour exécuter cette fonction, il faut l'appeler :
 
 ```rust
+fn dire_bonjour() {
+    println!("Bonjour !");
+}
+
 fn main() {
     dire_bonjour();
 }
@@ -42,7 +46,7 @@ fn addition(a: i32, b: i32) -> i32 {
 
 La dernière expression de la fonction est retournée. Elle ne possède pas de point-virgule.
 
-```rust
+```text
 a + b  // Cette valeur est retournée.
 a + b; // Cette instruction ne retourne pas le résultat.
 ```
@@ -73,3 +77,5 @@ Dans cet exemple :
 - `-> Type` indique le type retourné.
 - La dernière expression sans `;` peut être retournée automatiquement.
 - `return` permet de retourner une valeur immédiatement.
+
+Pour pratiquer cette notion, réalise [l'exercice 05 — Séparer un calcul de combat](../Exercises/Bases.md#bases-functions). La correction se trouve avec l'énoncé.

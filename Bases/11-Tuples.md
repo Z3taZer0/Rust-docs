@@ -42,3 +42,5 @@ Le type `(i32, i32)` décrit un tuple contenant deux entiers.
 - Sa taille est fixe.
 - `.0`, `.1` et les numéros suivants donnent accès à ses valeurs.
 - Un tuple peut être décomposé en plusieurs variables.
+
+Pour pratiquer cette notion, réalise [l'exercice 11 — Produire un rapport de combat](../Exercises/Bases.md#bases-tuples). La correction se trouve avec l'énoncé.

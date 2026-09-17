@@ -41,3 +41,5 @@ fn main() {
 - `cargo init .` crée un projet dans le dossier actuel.
 - `cargo run` compile et exécute le projet.
 - Le code principal se trouve dans `src/main.rs`.
+
+Pour pratiquer cette notion, réalise [l'exercice 01 — Préparer un projet de simulation](../Exercises/Bases.md#bases-cargo). La correction se trouve avec l'énoncé.

@@ -38,10 +38,6 @@ fn main() {
 
 Une fonction qui reçoit une slice peut travailler avec tout un tableau ou seulement une partie de celui-ci.
 
-## Petit exercice
-
-Écris une fonction `somme` qui reçoit une slice `&[u32]`, additionne ses valeurs avec une boucle `for` et retourne le total.
-
 ## À retenir
 
 - Une slice emprunte une partie continue d'une collection.
@@ -49,3 +45,5 @@ Une fonction qui reçoit une slice peut travailler avec tout un tableau ou seule
 - `&[T]` est une slice de valeurs de type `T`.
 - L'intervalle `début..fin` inclut le début et exclut la fin.
 - Une slice ne possède pas les données qu'elle consulte.
+
+Pour pratiquer cette notion, réalise [l'exercice 06 — Analyser une fenêtre de combat](../Exercises/Ownership.md#ownership-slices). La correction se trouve avec l'énoncé.

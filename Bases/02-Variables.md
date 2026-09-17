@@ -87,3 +87,5 @@ Le point `.` part donc d'une valeur existante, tandis que `::` parcourt un chemi
 - `: i32` indique explicitement le type d'une variable.
 - `::` sépare les différentes parties d'un chemin.
 - `.` appelle une méthode sur une valeur existante.
+
+Pour pratiquer cette notion, réalise [l'exercice 02 — Suivre une session de jeu](../Exercises/Bases.md#bases-variables). La correction se trouve avec l'énoncé.

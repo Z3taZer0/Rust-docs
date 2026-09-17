@@ -122,3 +122,5 @@ Ce programme n'affiche pas `2`.
 - `début..=fin` inclut la valeur de fin.
 - `break` quitte une boucle.
 - `continue` passe à l'itération suivante.
+
+Pour pratiquer cette notion, réalise [l'exercice 06 — Simuler trois vagues](../Exercises/Bases.md#bases-loops). La correction se trouve avec l'énoncé.
